@@ -9,6 +9,12 @@ import org.slf4j.LoggerFactory;
 import java.security.Principal;
 import java.security.SecureRandom;
 
+/* 
+* Classe métier, une classe "normale", en somme,
+* avec des attributs private, leurs getters/setters,
+* ainsi que quelques autres méthodes utiles pour une chose ou une autre
+*/
+
 public class User implements Principal {
     final static Logger logger = LoggerFactory.getLogger(User.class);
 
